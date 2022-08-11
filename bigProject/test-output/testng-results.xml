@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="17" passed="17">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="10098" started-at="2022-08-11T12:47:28Z" finished-at="2022-08-11T12:47:38Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="10098" started-at="2022-08-11T12:47:28Z" finished-at="2022-08-11T12:47:38Z">
+      <class name="TestCommandManager">
+        <test-method status="PASS" signature="connect()[pri:0, instance:TestCommandManager@4141d797]" name="connect" is-config="true" duration-ms="721" started-at="2022-08-11T12:47:28Z" finished-at="2022-08-11T12:47:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connect -->
+        <test-method status="PASS" signature="commandManagerWithConnectionServerUpdate()[pri:0, instance:TestCommandManager@4141d797]" name="commandManagerWithConnectionServerUpdate" duration-ms="1149" started-at="2022-08-11T12:47:29Z" finished-at="2022-08-11T12:47:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commandManagerWithConnectionServerUpdate -->
+        <test-method status="PASS" signature="commandManagerWithNoConnectionServerUpdate()[pri:0, instance:TestCommandManager@4141d797]" name="commandManagerWithNoConnectionServerUpdate" duration-ms="1817" started-at="2022-08-11T12:47:30Z" finished-at="2022-08-11T12:47:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commandManagerWithNoConnectionServerUpdate -->
+      </class> <!-- TestCommandManager -->
+      <class name="TestStudent">
+        <test-method status="PASS" signature="getID()[pri:0, instance:TestStudent@4f47d241]" name="getID" duration-ms="0" started-at="2022-08-11T12:47:32Z" finished-at="2022-08-11T12:47:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getID -->
+        <test-method status="PASS" signature="getName()[pri:0, instance:TestStudent@4f47d241]" name="getName" duration-ms="0" started-at="2022-08-11T12:47:32Z" finished-at="2022-08-11T12:47:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getName -->
+        <test-method status="PASS" signature="stringEquivalent()[pri:0, instance:TestStudent@4f47d241]" name="stringEquivalent" duration-ms="0" started-at="2022-08-11T12:47:32Z" finished-at="2022-08-11T12:47:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stringEquivalent -->
+      </class> <!-- TestStudent -->
+      <class name="TestFTPConnection">
+        <test-method status="PASS" signature="establishConnectionWithWrongAuthorizationData()[pri:0, instance:TestFTPConnection@4c3e4790]" name="establishConnectionWithWrongAuthorizationData" duration-ms="5329" started-at="2022-08-11T12:47:32Z" finished-at="2022-08-11T12:47:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- establishConnectionWithWrongAuthorizationData -->
+        <test-method status="PASS" signature="establishConnectionWithWrongHostName()[pri:0, instance:TestFTPConnection@4c3e4790]" name="establishConnectionWithWrongHostName" duration-ms="3" started-at="2022-08-11T12:47:37Z" finished-at="2022-08-11T12:47:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- establishConnectionWithWrongHostName -->
+        <test-method status="PASS" signature="successfulEstablishConnection()[pri:0, instance:TestFTPConnection@4c3e4790]" name="successfulEstablishConnection" duration-ms="1028" started-at="2022-08-11T12:47:37Z" finished-at="2022-08-11T12:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulEstablishConnection -->
+      </class> <!-- TestFTPConnection -->
+      <class name="TestCommands">
+        <test-method status="PASS" signature="addStudent()[pri:0, instance:TestCommands@68f7aae2]" name="addStudent" duration-ms="4" started-at="2022-08-11T12:47:32Z" finished-at="2022-08-11T12:47:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addStudent -->
+        <test-method status="PASS" signature="sysBackup()[pri:0, instance:TestCommands@68f7aae2]" name="sysBackup" is-config="true" duration-ms="0" started-at="2022-08-11T12:47:32Z" finished-at="2022-08-11T12:47:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sysBackup -->
+        <test-method status="PASS" signature="addStudentsWhenNoId()[pri:0, instance:TestCommands@68f7aae2]" name="addStudentsWhenNoId" duration-ms="1" started-at="2022-08-11T12:47:32Z" finished-at="2022-08-11T12:47:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addStudentsWhenNoId -->
+        <test-method status="PASS" signature="sysBackup()[pri:0, instance:TestCommands@68f7aae2]" name="sysBackup" is-config="true" duration-ms="0" started-at="2022-08-11T12:47:32Z" finished-at="2022-08-11T12:47:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sysBackup -->
+        <test-method status="PASS" signature="sysRestore()[pri:0, instance:TestCommands@68f7aae2]" name="sysRestore" is-config="true" duration-ms="0" started-at="2022-08-11T12:47:32Z" finished-at="2022-08-11T12:47:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sysRestore -->
+        <test-method status="PASS" signature="sysBackup()[pri:0, instance:TestCommands@68f7aae2]" name="sysBackup" is-config="true" duration-ms="1" started-at="2022-08-11T12:47:32Z" finished-at="2022-08-11T12:47:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sysBackup -->
+        <test-method status="PASS" signature="sysRestore()[pri:0, instance:TestCommands@68f7aae2]" name="sysRestore" is-config="true" duration-ms="0" started-at="2022-08-11T12:47:32Z" finished-at="2022-08-11T12:47:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sysRestore -->
+        <test-method status="PASS" signature="findExistingStudent()[pri:0, instance:TestCommands@68f7aae2]" name="findExistingStudent" duration-ms="2" started-at="2022-08-11T12:47:32Z" finished-at="2022-08-11T12:47:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findExistingStudent -->
+        <test-method status="PASS" signature="exitCommand()[pri:0, instance:TestCommands@68f7aae2]" name="exitCommand" duration-ms="0" started-at="2022-08-11T12:47:32Z" finished-at="2022-08-11T12:47:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitCommand -->
+        <test-method status="PASS" signature="sysRestore()[pri:0, instance:TestCommands@68f7aae2]" name="sysRestore" is-config="true" duration-ms="0" started-at="2022-08-11T12:47:32Z" finished-at="2022-08-11T12:47:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sysRestore -->
+        <test-method status="PASS" signature="sysBackup()[pri:0, instance:TestCommands@68f7aae2]" name="sysBackup" is-config="true" duration-ms="0" started-at="2022-08-11T12:47:32Z" finished-at="2022-08-11T12:47:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sysBackup -->
+        <test-method status="PASS" signature="sysRestore()[pri:0, instance:TestCommands@68f7aae2]" name="sysRestore" is-config="true" duration-ms="0" started-at="2022-08-11T12:47:32Z" finished-at="2022-08-11T12:47:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sysRestore -->
+        <test-method status="PASS" signature="sysBackup()[pri:0, instance:TestCommands@68f7aae2]" name="sysBackup" is-config="true" duration-ms="0" started-at="2022-08-11T12:47:32Z" finished-at="2022-08-11T12:47:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sysBackup -->
+        <test-method status="PASS" signature="findNotExistingStudent()[pri:0, instance:TestCommands@68f7aae2]" name="findNotExistingStudent" duration-ms="1" started-at="2022-08-11T12:47:32Z" finished-at="2022-08-11T12:47:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findNotExistingStudent -->
+        <test-method status="PASS" signature="sysRestore()[pri:0, instance:TestCommands@68f7aae2]" name="sysRestore" is-config="true" duration-ms="0" started-at="2022-08-11T12:47:32Z" finished-at="2022-08-11T12:47:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sysRestore -->
+        <test-method status="PASS" signature="sysBackup()[pri:0, instance:TestCommands@68f7aae2]" name="sysBackup" is-config="true" duration-ms="0" started-at="2022-08-11T12:47:32Z" finished-at="2022-08-11T12:47:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sysBackup -->
+        <test-method status="PASS" signature="findStudentUsingNotIntId()[pri:0, instance:TestCommands@68f7aae2]" name="findStudentUsingNotIntId" duration-ms="1" started-at="2022-08-11T12:47:32Z" finished-at="2022-08-11T12:47:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findStudentUsingNotIntId -->
+        <test-method status="PASS" signature="sysRestore()[pri:0, instance:TestCommands@68f7aae2]" name="sysRestore" is-config="true" duration-ms="1" started-at="2022-08-11T12:47:32Z" finished-at="2022-08-11T12:47:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sysRestore -->
+        <test-method status="PASS" signature="sysBackup()[pri:0, instance:TestCommands@68f7aae2]" name="sysBackup" is-config="true" duration-ms="0" started-at="2022-08-11T12:47:32Z" finished-at="2022-08-11T12:47:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sysBackup -->
+        <test-method status="PASS" signature="removeExistingStudent()[pri:0, instance:TestCommands@68f7aae2]" name="removeExistingStudent" duration-ms="1" started-at="2022-08-11T12:47:32Z" finished-at="2022-08-11T12:47:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeExistingStudent -->
+        <test-method status="PASS" signature="sysBackup()[pri:0, instance:TestCommands@68f7aae2]" name="sysBackup" is-config="true" duration-ms="0" started-at="2022-08-11T12:47:32Z" finished-at="2022-08-11T12:47:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sysBackup -->
+        <test-method status="PASS" signature="sysRestore()[pri:0, instance:TestCommands@68f7aae2]" name="sysRestore" is-config="true" duration-ms="0" started-at="2022-08-11T12:47:32Z" finished-at="2022-08-11T12:47:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sysRestore -->
+        <test-method status="PASS" signature="removeNotExistingStudent()[pri:0, instance:TestCommands@68f7aae2]" name="removeNotExistingStudent" duration-ms="1" started-at="2022-08-11T12:47:32Z" finished-at="2022-08-11T12:47:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeNotExistingStudent -->
+        <test-method status="PASS" signature="removeUsingNotIntID()[pri:0, instance:TestCommands@68f7aae2]" name="removeUsingNotIntID" duration-ms="1" started-at="2022-08-11T12:47:32Z" finished-at="2022-08-11T12:47:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeUsingNotIntID -->
+        <test-method status="PASS" signature="sysBackup()[pri:0, instance:TestCommands@68f7aae2]" name="sysBackup" is-config="true" duration-ms="0" started-at="2022-08-11T12:47:32Z" finished-at="2022-08-11T12:47:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sysBackup -->
+        <test-method status="PASS" signature="sysRestore()[pri:0, instance:TestCommands@68f7aae2]" name="sysRestore" is-config="true" duration-ms="0" started-at="2022-08-11T12:47:32Z" finished-at="2022-08-11T12:47:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sysRestore -->
+        <test-method status="PASS" signature="sysRestore()[pri:0, instance:TestCommands@68f7aae2]" name="sysRestore" is-config="true" duration-ms="0" started-at="2022-08-11T12:47:32Z" finished-at="2022-08-11T12:47:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sysRestore -->
+      </class> <!-- TestCommands -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
